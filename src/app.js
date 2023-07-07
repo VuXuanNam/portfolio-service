@@ -21,7 +21,7 @@ app.use('/api', categoryRouter);
 const connectDB = async () => {
   try {
     await mongoose.connect(
-      'mongodb+srv://namvu:<password>@namvu.7koe0u0.mongodb.net/?retryWrites=true&w=majority'
+      'mongodb+srv://namvu:Namvu3004@namvu.pdggycx.mongodb.net/?retryWrites=true&w=majority'
     );
     console.log('successfully');
   } catch (error) {
