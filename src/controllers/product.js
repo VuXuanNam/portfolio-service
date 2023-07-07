@@ -5,10 +5,10 @@ import Category from '../models/category.js';
 
 const productSchema = joi.object({
   name: joi.string().required(),
-  year: joi.string().required(),
+
   image: joi.string().required(),
   desc: joi.string().required(),
-  demo_link: joi.string().required(),
+
   source_code_link: joi.string().required(),
   categoryId: joi.string().required(),
 });
